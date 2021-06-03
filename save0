@@ -1,0 +1,10 @@
+#!/bin/bash
+
+pacman -Syy
+pacman -S wget
+
+wget https://raw.githubusercontent.com/petr1-sec/arch/main/auto1.sh
+wget https://raw.githubusercontent.com/petr1-sec/arch/main/auto2.sh
+wget https://raw.githubusercontent.com/petr1-sec/arch/main/auto3.sh
+ls -l
+#sh auto1.sh
