@@ -63,4 +63,4 @@ pacstrap /mnt base base-devel linux linux-firmware nano dhcpcd netctl
 echo 'Настройка системы'
 genfstab -pU /mnt >> /mnt/etc/fstab
 
-arch-chroot /mnt sh -c "$(curl -fsSL https://raw.githubusercontent.com/petr1-sec/arch/main/auto2.sh)"
+arch-chroot /mnt sh -c "$(curl -fsSL https://raw.githubusercontent.com/petr1-sec/arch/main/2-install-os.sh)"
