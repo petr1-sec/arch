@@ -78,7 +78,6 @@ pacman -S networkmanager network-manager-applet ppp --noconfirm
 echo 'Подключаем автозагрузку менеджера входа и интернет'
 systemctl enable NetworkManager
 
-#echo 'wget git.io/arch3.sh && sh arch3.sh'
 exit
 
 reboot
