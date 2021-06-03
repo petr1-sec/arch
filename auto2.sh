@@ -78,6 +78,9 @@ pacman -S networkmanager network-manager-applet ppp --noconfirm
 echo 'Подключаем автозагрузку менеджера входа и интернет'
 systemctl enable NetworkManager
 
-exit
+pwd
 
-reboot
+cd /home/$username
+wget https://raw.githubusercontent.com/petr1-sec/arch/main/auto3.sh
+
+exit
