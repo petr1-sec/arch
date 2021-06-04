@@ -78,14 +78,9 @@ pacman -S networkmanager network-manager-applet ppp --noconfirm
 echo 'Подключаем автозагрузку менеджера входа и интернет'
 systemctl enable NetworkManager
 
-echo -e "\n"
-pwd
 pacman -Syy
 pacman -S wget
-
-cd /home/$username
+cd /home/qwe
 wget https://raw.githubusercontent.com/petr1-sec/arch/main/3-setting.sh
-ls -l 
-pwd
 
 exit
