@@ -81,6 +81,8 @@ systemctl enable NetworkManager
 pwd
 
 cd /home/$username
-wget https://raw.githubusercontent.com/petr1-sec/arch/main/auto3.sh
+wget https://raw.githubusercontent.com/petr1-sec/arch/main/3-setting.sh
+ls -l 
 
+pwd
 exit
